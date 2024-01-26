@@ -10,7 +10,7 @@
     "prettier-plugin-tailwindcss": "^0.5.11"
   },
   "scripts": {
-    "tailwind": "npx tailwindcss -i ./src/input.css  -o ./src/output.css --watch",
+    "tailwind": "npx tailwindcss -i ./src/input.css  -o ./build/css/style.css --watch",
     "prettier" : "npx prettier --write **/*.html"
   },
   "keywords": [],
